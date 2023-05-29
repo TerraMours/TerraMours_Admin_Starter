@@ -1,7 +1,12 @@
 import { defaultTheme } from 'vuepress'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { defineUserConfig} from 'vuepress'
-
+import {
+  navbarEn,
+  navbarZh,
+  sidebarEn,
+  sidebarZh,
+} from './configs/index.js'
 // const isProd = process.env.NODE_ENV === 'production'
 const isProd = false
 export default defineUserConfig({
@@ -14,14 +19,14 @@ export default defineUserConfig({
     // site-level locales config
     locales: {
         '/': {
+          lang: 'zh-CN',
+          title: 'TerraMours',
+          description: 'TerraMours 开源项目',
+        },
+        '/en/': {
         lang: 'en-US',
         title: 'TerraMours',
         description: 'TerraMours FrameWork',
-        },
-        '/zh/': {
-        lang: 'zh-CN',
-        title: 'TerraMours',
-        description: 'TerraMours 开源项目',
         },
     },
     // configure default theme
@@ -40,24 +45,12 @@ export default defineUserConfig({
        */
       '/': {
         // navbar
-        // navbar: navbarEn,
-        // sidebar
-        // sidebar: sidebarEn,
-        // page meta
-        editLinkText: 'Edit this page on GitHub',
-      },
-
-      /**
-       * Chinese locale config
-       */
-      '/zh/': {
-        // navbar
-        // navbar: navbarZh,
+        navbar: navbarZh,
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
         // sidebar
-        // sidebar: sidebarZh,
+        sidebar: sidebarZh,
         // page meta
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
@@ -78,6 +71,19 @@ export default defineUserConfig({
         openInNewWindow: '在新窗口打开',
         toggleColorMode: '切换颜色模式',
         toggleSidebar: '切换侧边栏',
+        
+      },
+
+      /**
+       * Chinese locale config
+       */
+      '/en/': {
+        // navbar
+        navbar: navbarEn,
+        // sidebar
+        sidebar: sidebarEn,
+        // page meta
+        editLinkText: 'Edit this page on GitHub',
       },
     },
 
@@ -98,7 +104,7 @@ export default defineUserConfig({
         facetFilters: ['tags:v2'],
       },
       locales: {
-        '/zh/': {
+        '/': {
           placeholder: '搜索文档',
           translations: {
             button: {
