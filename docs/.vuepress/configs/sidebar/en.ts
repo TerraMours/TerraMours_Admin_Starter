@@ -7,6 +7,7 @@ export const sidebarEn: SidebarConfig = {
           children: [
             '/en/guide/README.md',
             '/en/guide/getting-started.md',
+            '/en/guide/getting-started-vue.md',
           ],
         },
       ],

@@ -3,19 +3,18 @@ home: true
 heroImage: images/hero.png
 heroText: TerraMours
 actions:
-  - text: 快速开始
+  - text: Quick Start
     link: /en/guide/
     type: primary
   - text: Intro
     link: /en/guide/markdown
     type: secondary
 features:
-- title: Note
-  details: Markdown-centered notes that record every moment succinctly and efficiently
-- title: Blog
-  details: Clean and tidy blog, easy to archive files
-- title: Document
-  details: Online personal documentation, make the desired documentation
-footer: MIT Licensed | Copyright © 2016-present Passwordgloo
+- title: Concise and Efficient
+  details: TerraMours uses Masa's MinimalAPI to implement efficient HTTP API interfaces with minimal code, providing higher performance and lower latency.
+- title: Domain-Driven Design (DDD)
+  details: TerraMours framework adopts the design of Domain-Driven Design (DDD), providing better business recognition and management, better module division, better data mapping, better maintainability and scalability.
+- title: Extensible Development
+  details: TerraMours has implemented basic functions such as user management, permission verification, and log management. Developers can quickly develop related business systems based on business requirements.
+footer: MIT Licensed | Copyright (c) 2023 firstsaofan
 ---
-请在此书写你的内容
