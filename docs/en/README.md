@@ -6,8 +6,8 @@ actions:
   - text: Quick Start
     link: /en/guide/
     type: primary
-  - text: Intro
-    link: /en/guide/markdown
+  - text: Demo Site
+    link: https://demo.terramours.site/
     type: secondary
 features:
 - title: Concise and Efficient

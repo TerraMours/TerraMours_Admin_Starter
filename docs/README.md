@@ -7,7 +7,7 @@ actions:
     link: /guide/
     type: primary
   - text: 演示站点
-    link: http://43.134.164.127:8089/
+    link: https://demo.terramours.site/
     type: secondary
 features:
 - title: 简洁高效
