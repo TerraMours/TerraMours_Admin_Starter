@@ -14,8 +14,16 @@ export default defineUserConfig({
     base: '/',
 
     // extra tags in `<head>`
-    // head,
-
+    head: [
+      [
+        "script",
+        {
+          crossorigin:"anonymous",
+          async: true,
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5040465088183611"
+        }
+      ]
+    ],
     // site-level locales config
     locales: {
         '/': {
