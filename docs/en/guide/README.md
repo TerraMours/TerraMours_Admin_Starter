@@ -37,7 +37,7 @@ The first project is TerraMoursGPT, which implements features such as user login
 
 Create a new empty file named docker-compose.yml and paste the following contents into the file, then save it.
 
-```dockerfile
+```yaml
 version: "3.9"
 services:
   redis:
