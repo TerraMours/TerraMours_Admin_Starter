@@ -15,6 +15,7 @@ export default defineUserConfig({
 
     // extra tags in `<head>`
     head: [
+      [ 'link', { rel: 'icon', href: '/images/logo.png' }],
       [
         "script",
         {
@@ -27,7 +28,7 @@ export default defineUserConfig({
     // site-level locales config
     locales: {
         '/': {
-          lang: 'zh-CN',
+          lang: '简体中文',
           title: 'TerraMours',
           description: 'TerraMours 开源项目',
         },
@@ -39,7 +40,7 @@ export default defineUserConfig({
     },
     // configure default theme
   theme: defaultTheme({
-    logo: '/images/hero.png',
+    logo: '/images/logo.png',
     repo: 'firstsaofan/TerraMours',
     docsDir: 'docs',
 

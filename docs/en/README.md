@@ -6,8 +6,8 @@ actions:
   - text: Quick Start
     link: /en/guide/
     type: primary
-  - text: Demo Site
-    link: https://demo.terramours.site/
+  - text: GPT Site
+    link: https://first.terramours.site/
     type: secondary
 features:
 - title: Concise and Efficient
