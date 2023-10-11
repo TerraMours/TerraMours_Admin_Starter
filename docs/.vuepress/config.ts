@@ -41,7 +41,7 @@ export default defineUserConfig({
     // configure default theme
   theme: defaultTheme({
     logo: '/images/logo.png',
-    repo: 'TerraMours/TerraMours_Gpt_Api',
+    repo: 'TerraMours/TerraMours_Admin_Starter',
     docsDir: 'docs',
 
     // theme-level locales config
