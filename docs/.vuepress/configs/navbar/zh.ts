@@ -8,13 +8,13 @@ export const navbarZh: NavbarConfig =[
         text: '项目开发者',
         children: [
           {
+            text:"raokun",
+            link:"https://www.raokun.top/"
+          },
+          {
             text:"firstsaofan",
             link:"https://www.firstsaofan.top/"
           },
-          {
-            text:"raokun",
-            link:"https://www.raokun.top/"
-          }
         ],
       },
 ]

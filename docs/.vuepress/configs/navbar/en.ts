@@ -8,13 +8,13 @@ export const navbarEn: NavbarConfig = [
         text: 'Designer',
         children: [
           {
+            text:"raokun",
+            link:"https://www.raokun.top/"
+          },
+          {
             text:"firstsaofan",
             link:"https://www.firstsaofan.top/"
           },
-          {
-            text:"raokun",
-            link:"https://www.raokun.top/"
-          }
         ],
       },
 ]
