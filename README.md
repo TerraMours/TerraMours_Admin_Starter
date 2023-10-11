@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>TerraMours_Admin</h1>
+	<h1>TerraMours_GPT</h1>
 </div>
 
 中文简介 | [English](/docs/en/guide/README.md)
