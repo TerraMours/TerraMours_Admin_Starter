@@ -13,8 +13,8 @@ export const sidebarZh: SidebarConfig = {
             text: 'TerraMours-GPT部署',
             children: [
                 '/guide/README.md',
-                '/guide/getting-started.md',
-                '/guide/getting-started-vue.md',
+                // '/guide/getting-started.md',
+                // '/guide/getting-started-vue.md',
             ],
         },
       ],  

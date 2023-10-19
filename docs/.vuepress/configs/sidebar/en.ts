@@ -13,8 +13,8 @@ export const sidebarEn: SidebarConfig = {
             text: 'TerraMours-GPT Guide',
             children: [
                 '/en/guide/README.md',
-                '/en/guide/getting-started.md',
-                '/en/guide/getting-started-vue.md',
+                // '/en/guide/getting-started.md',
+                // '/en/guide/getting-started-vue.md',
             ],
         },
       ],
